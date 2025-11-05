@@ -7,7 +7,7 @@ It reproduces and extends key ideas from the referenced papers, adapting them to
 
 This work draws upon the paper:
 
-**Zheng et al., 2023 — “Hypergraph-Based Patient Representation Learning for Precision Medicine”** [Read the paper here](https://arxiv.org/abs/2308.12575v2)
+**Zheng et al., 2023 — “Hypergraph-Based Patient Representation Learning for Precision Medicine”** [Read the paper here](https://arxiv.org/pdf/2507.19726)
 and the repository:
 [constantjxyz/HypKG](https://github.com/constantjxyz/HypKG)
 
