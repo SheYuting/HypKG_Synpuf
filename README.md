@@ -42,7 +42,7 @@ for unsupervised structure reconstruction or auxiliary clinical prediction tasks
 
 ## Dataset: SynPUF1K
 
-**SynPUF (Synthetic Public Use Files)** is a **synthetic, privacy-preserving dataset** generated from the OMOP Common Data Model (CDM).  
+**SynPUF (Synthetic Public Use Files)** is a **synthetic, privacy-preserving dataset** generated from the OMOP Common Data Model (CDM).  [link to dataset](https://forums.ohdsi.org/t/1k-sample-of-simulated-cms-synpuf-data-in-cdmv5-format-available-for-download/728/39)
 Key properties:
 
 - 1,000 synthetic patients (`SynPUF1K`)  
