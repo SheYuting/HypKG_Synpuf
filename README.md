@@ -77,11 +77,8 @@ Key properties:
   │ └── visualize_results.py # Plot metrics and embeddings
   
   │
+  
   ├── results/
-  
-  │ ├── mimicIII_results.png
-  
-  │ ├── promote_results.png
   
   │ ├── synpuf1k_results.png
   
