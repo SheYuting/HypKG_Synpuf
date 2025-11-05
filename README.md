@@ -57,21 +57,35 @@ Key properties:
 
 ---
 
-## ⚙️ Repository Structure
-├── data/
-│ ├── synpuf1k/ # OMOP-format synthetic data
-│ ├── processed/ # Preprocessed incidence & feature matrices
-│
-├── src/
-│ ├── build_hypergraph.py # Construct patient-hyperedge incidence matrix
-│ ├── model_hypkg.py # Hypergraph-based embedding model
-│ ├── train.py # Training and evaluation scripts
-│ └── visualize_results.py # Plot metrics and embeddings
-│
-├── results/
-│ ├── mimicIII_results.png
-│ ├── promote_results.png
-│ ├── synpuf1k_results.png
-│ └── comparison_table.csv
-│
-└── README.md
+## Repository Structure
+  ├── data/
+  
+  │ ├── synpuf1k/ # OMOP-format synthetic data
+  
+  │ ├── processed/ # Preprocessed incidence & feature matrices
+  
+  │
+  
+  ├── src/
+  
+  │ ├── build_hypergraph.py # Construct patient-hyperedge incidence matrix
+  
+  │ ├── model_hypkg.py # Hypergraph-based embedding model
+  
+  │ ├── train.py # Training and evaluation scripts
+  
+  │ └── visualize_results.py # Plot metrics and embeddings
+  
+  │
+  ├── results/
+  
+  │ ├── mimicIII_results.png
+  
+  │ ├── promote_results.png
+  
+  │ ├── synpuf1k_results.png
+  
+  │ └── comparison_table.csv
+  
+  │
+  └── README.md
