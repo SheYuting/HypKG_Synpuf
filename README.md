@@ -27,16 +27,13 @@ and the repository:
 
 ### 3. Learning Framework
 The model employs a **Hypergraph Neural Network (HGNN)**:
-\[
-H = \text{softmax}(D_v^{-1/2} H W D_e^{-1/2})
-\]
-where \( H \) is the incidence matrix, \( D_v, D_e \) are vertex and hyperedge degree matrices, and \( W \) is a learnable weight matrix.
+The model employs a Hypergraph Neural Network (HGNN):
 
-Loss is defined as:
-\[
-\mathcal{L} = \mathcal{L}_{\text{reconstruction}} + \lambda \mathcal{L}_{\text{regularization}}
-\]
-for unsupervised structure reconstruction or auxiliary clinical prediction tasks.
+H′ = softmax(D_v^{-1/2} · H · W · D_e^{-1/2})
+
+Loss function:
+
+L = L_reconstruction + λ · L_regularization
 
 ---
 
