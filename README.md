@@ -5,13 +5,16 @@ It reproduces and extends key ideas from the referenced papers, adapting them to
 
 ---
 
-This work draws upon the following :
+This work draws upon the paper:
 
-**Zheng et al., 2023 — “Hypergraph-Based Patient Representation Learning for Precision Medicine”** 
+**Zheng et al., 2023 — “Hypergraph-Based Patient Representation Learning for Precision Medicine”** [Read the paper here](https://arxiv.org/abs/2308.12575v2)
+and the repository:
+[constantjxyz/HypKG](https://github.com/constantjxyz/HypKG)
+
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 ### 1. Hypergraph Construction
 - **Vertices:** Individual patients in the SynPUF dataset.  
@@ -37,7 +40,7 @@ for unsupervised structure reconstruction or auxiliary clinical prediction tasks
 
 ---
 
-## 🧬 Dataset: SynPUF1K
+## Dataset: SynPUF1K
 
 **SynPUF (Synthetic Public Use Files)** is a **synthetic, privacy-preserving dataset** generated from the OMOP Common Data Model (CDM).  
 Key properties:
